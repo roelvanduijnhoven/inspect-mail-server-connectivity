@@ -1,0 +1,12 @@
+# All ports the server can communicate with
+OPEN_PORTS = [80, 25, 110, 143, 443, 465, 587, 993, 995]
+
+# Do you want SMTP tests to also send an e-mail?
+# You should have access to the specified account.
+SEND_TEST_MAIL = False
+SEND_TEST_MAIL_TO = "an@example-email.com"
+
+# Mail account to connect with
+MAIL_HOSTNAME = 'mail.[server]'
+MAIL_USERNAME = '[username]'
+MAIL_PASSWORD = '[password]'
